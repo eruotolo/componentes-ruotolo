@@ -1,0 +1,17 @@
+aside{
+  background-color: #1f2023;
+  border-right: 1px solid #333333;
+  box-shadow:  rgba(0, 0, 0, 0.25) 2px 0px 60px -10px;
+  color: #999999;
+  width: var(--sidebar-width);
+  height: calc(100vh - var(--toolbar-height));
+  position: fixed;
+
+}
+.menu-sidebar > a > svg{
+  width: 2vw;
+  color: #ffffff;
+  margin-left: 2vw;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}

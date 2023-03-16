@@ -1,0 +1,42 @@
+.card{
+  background:  #27282d none repeat scroll 0% 0% / auto padding-box border-box;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow:  rgba(0, 0, 0, 0.15) 0px 5px 45px;
+  margin-bottom: 20px;
+}
+.card-title{
+  color: #ffffff;
+  font-family: Roboto;
+}
+.card-subtitle{
+  color: #dddddd;
+}
+.card-body p{
+  font-size: 12px;
+  box-sizing: border-box;
+  color:  #ffffff;
+  font-family: Montserrat;
+  letter-spacing: 0.02em;
+  line-height: 16px;
+  list-style: outside none none;
+  text-align: left;
+  text-transform: uppercase;
+}
+.card-body a{
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 400;
+  color: #e5f876;
+  float: right;
+  font-size: 14px;
+  line-height: 14px;
+  border: 1px solid #e5f876;
+  padding: 6px 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.card-body a:hover{
+  background-color: #e5f876;
+  color: #26272c;
+}
